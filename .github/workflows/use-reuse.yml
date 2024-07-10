@@ -1,4 +1,4 @@
-name: Use-Reuse
+name: Using Reuse
 on:
   push:
     branches:
