@@ -1,4 +1,4 @@
-name: Use-Reuse Website Deployment
+name: Use-Reuse
 on:
   push:
     branches:
