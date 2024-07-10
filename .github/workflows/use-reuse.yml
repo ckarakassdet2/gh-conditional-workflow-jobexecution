@@ -69,7 +69,8 @@ jobs:
   deploy:
     needs: build
     uses: ./.github/workflows/reusable.yml # use forward slash (/) otherwise it will fail in the pipeline
-
+    with: 
+      artifact-name: dist-files
   report:
     needs: [lint, deploy]
     if: failure()
